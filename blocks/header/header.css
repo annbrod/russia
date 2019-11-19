@@ -1,0 +1,29 @@
+@import url('header__logo/header__logo.css');
+@import url('header__lang/header__lang.css');
+
+
+.header {
+    width: 95%;
+    max-width: 1184px;
+    height: auto;
+    margin: 30px auto 48px;
+    background-color: #2A2C2F;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 929px;
+        margin: 29px auto 51px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        margin: 16px auto 51px;
+    }
+}

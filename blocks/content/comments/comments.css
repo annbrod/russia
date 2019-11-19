@@ -1,0 +1,23 @@
+@import url('../comments/comments__container/comments__container.css');
+@import url('../comments/comment/comment.css');
+
+.comments {
+    width: 90%;
+    max-width: 985px;
+    
+    margin: 0 auto 102px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments {
+        margin-bottom: 55px;
+    }
+   
+}
+
+@media screen and (max-width: 375px) {
+    .comments {
+        width: 100%;
+    }
+   
+}

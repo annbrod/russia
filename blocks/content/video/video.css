@@ -1,0 +1,8 @@
+@import url('../video/video__container/video__container.css');
+
+.video {
+    width: 90%;
+    max-width: 985px;
+    margin: 0 auto 102px;
+    
+}

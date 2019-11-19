@@ -1,0 +1,13 @@
+@import url('../video__item-bg/video__item-bg.css');
+@import url('../video__icon/video__icon.css');
+@import url('../video__icon/video__icon_type/video__icon_type_play.css'); /*позиционирование иконки*/
+@import url('../video__duration/video__duration.css');
+@import url('../video__title/video__title.css');
+@import url('../video__subtitle/video__subtitle.css');
+
+.video__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

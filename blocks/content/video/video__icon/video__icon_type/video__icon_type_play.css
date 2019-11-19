@@ -1,0 +1,28 @@
+.video__icon_type_play {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 800px) {
+    .video__icon_type_play {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__icon_type_play {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .video__icon_type_play {
+        top: 18px;
+        left: 24px;
+    }
+
+}

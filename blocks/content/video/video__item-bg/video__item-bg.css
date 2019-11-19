@@ -1,0 +1,14 @@
+.video__item-bg {
+    background-image: linear-gradient(black, black);
+    width: 100%;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.video__item:hover .video__item-bg {
+    background-image: linear-gradient(black, black);
+    border-radius: 5px;
+    opacity: 0.2;
+    transition: 0.5s ease;
+}
+

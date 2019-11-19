@@ -1,0 +1,13 @@
+.intro__text_type_additional {
+    max-width: 383px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;  
+}
+
+@media screen and (max-width: 375px) {
+    .intro__text_type_additional {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

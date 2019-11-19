@@ -1,0 +1,31 @@
+@import url('../header__lang/header__lang_type/header__lang_selected.css');
+
+
+.header__lang {
+    font-family: 'Inter';
+    font-size: 24px;    
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 0;
+    margin-bottom: 12px;
+    display: inline-block;
+    margin-right: 18px;
+    
+}
+
+.header__lang:last-child {
+    margin-right: 0;
+    text-decoration: none;
+
+}
+
+.header__lang:last-child:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 375px) {
+    .header__lang {
+        font-size: 18px;
+    line-height: 17px;
+    }
+}
